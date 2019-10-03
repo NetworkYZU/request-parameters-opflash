@@ -17,6 +17,9 @@
         <form action="process" method="GET">
             name: <input type="text" name="username"></input><br/>
             password: <input type="password" name="pass"><br/>
+            <input type="checkbox" name="source" value="web">網頁
+            <input type="checkbox" name="source" value="news">新聞
+            <input type="checkbox" name="source" value="fb">FB
             <input type="submit"/>
         </form>
     </body>

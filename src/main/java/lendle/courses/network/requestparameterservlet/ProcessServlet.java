@@ -41,9 +41,7 @@ public class ProcessServlet extends HttpServlet {
             out.println("<title>Servlet ProcessServlet</title>");            
             out.println("</head>");
             out.println("<body>");
-            String username = request.getParameter("username");
-            String pass = request.getParameter("pass");
-            out.println("username="+username+",pass="+pass);
+            out.println(request.getParameter("username"));
             out.println("</body>");
             out.println("</html>");
         } finally {
